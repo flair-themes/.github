@@ -22,14 +22,14 @@
 
 ### JS Delivr cache
 
-- CSS should be tested locally and pushed all at once to the repo, before it is called by JS Delivr to the frontend. JS Delivr has a long cache time (over 7 days) so any changes made to the file will take a while to come through
+- CSS should be tested locally and pushed all at once to the repo, before it is called by JS Delivr to the frontend. JS Delivr has a long cache time (over 7 days) so any changes made to the file will take a while to come through.
 - You can attempt to purge the cache manually by locating the JS Delivr path to the custom CSS file in the page source code and opening the file in a new browser tab.
 
 ```
 <link href="https://cdn.jsdelivr.net/gh/flair-themes/xxxxxxx/custom.css?c=5591492" rel="stylesheet">
 ```
 
-- Remove the querystring from the end of the URL in the addres bar
+- Remove the querystring from the end of the URL in the address bar
 - Replace the subdomain `cdn` with `purge` and hit enter
 
 ```
